@@ -51,17 +51,17 @@ git push -u origin main
 Several commits were created by modifying the file:
 
 ```
-echo "line2" >> name.txt
+echo "Hi 1" >> name.txt
 git add .
-git commit -m "commit2"
+git commit -m "Second commit"
 
-echo "line3" >> name.txt
+echo "Hi 2" >> name.txt
 git add .
-git commit -m "commit3"
+git commit -m "Third commit"
 
-echo "line4" >> name.txt
+echo "Hi 3" >> name.txt
 git add .
-git commit -m "commit4"
+git commit -m "Forth commit"
 ```
 
 ---
